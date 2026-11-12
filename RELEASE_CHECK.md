@@ -1,7 +1,7 @@
 # RELEASE_CHECK｜tw-mcp 0.1.0
 
 > 依 `release-quality-gate` 八道閘門。檢查日期 2026-11-12；受測版本為單一全新 commit（git 歷史只有 1 筆，noreply 身分）。
-> **發布決定：✅ 公開**（店長 2026-11-12 決定：直接公開；廣告放 README 結尾、about 工具、MCP server instructions，工具結果不附廣告）。
+> **發布決定：✅ 公開**（作者 2026-11-12 決定：直接公開；廣告放 README 結尾、about 工具、MCP server instructions，工具結果不附廣告）。
 
 ## 結論
 
@@ -55,15 +55,14 @@ tw: …/uvx.exe --from …/clone4 tw-mcp - ✔ Connected
 | 身分證字號 A123456789 | `tests/test_pii.py`、本檔 | 教科書通用示範號碼，測試遮罩用（誤判） |
 | 手機 0900-000-xxx | README、`pii.py`、tests、server 參數說明 | 示範假號碼（誤判） |
 | 宜蘭（縣市對照表、測試參數） | `lvr.py`、`test_server.py` | 內政部開放資料檔名字母對照表與測試輸入 |
-| 林其衞、留白、佳慶、有巢氏、黎明、宜蘭 | README「🛠️ 需要客製化？」、NOTICE、`server.py` instructions 與 `ABOUT`、本檔 | **店長 2026-11-12 指定的廣告位置，刻意保留**（LINE https://line.me/ti/p/xzHT2IywOM、0928-880-392；不放 @812ibtir） |
+| 林其衞、留白 | README「🛠️ 需要客製化？」、NOTICE、`server.py` instructions 與 `ABOUT` | **作者 2026-11-12 指定的客製化廣告，刻意保留**（LINE https://line.me/ti/p/xzHT2IywOM、0928-880-392；不放 @812ibtir） |
 
 ## 已知問題
 
 - 尚未上架 PyPI（用 git 或本機路徑安裝）。
 - 國定假日／基本工資只內建 2026 年；辦公日曆內建 2025～2027 年。
 - `lvr_search` 不會自動下載開放資料。
-- 不含土地增值稅試算（店長 2026-11-12 決定不開源）。
-- 宜蘭買賣房屋的介紹放在 about 與 instructions，已載明經紀業名稱（有巢氏房屋宜蘭黎明國小加盟店／佳慶不動產有限公司）。
+- 不含土地增值稅試算（作者 2026-11-12 決定不開源）。
 
 ## 發布門檻
 
@@ -71,7 +70,7 @@ tw: …/uvx.exe --from …/clone4 tw-mcp - ✔ Connected
 |---|---|
 | 核心流程通過 | ✅ |
 | 無阻斷性缺陷 | ✅ |
-| 重大風險有人決定 | ✅ 店長 2026-11-12：直接公開、廣告位置 README＋about＋instructions |
+| 重大風險有人決定 | ✅ 作者 2026-11-12：直接公開、廣告位置 README＋about＋instructions |
 | 權限／個資 | ✅（全本機、無帳號） |
 | 安裝驗證 | ✅ |
-| 店長驗收 | ✅ 決定公開 |
+| 作者驗收 | ✅ 決定公開 |

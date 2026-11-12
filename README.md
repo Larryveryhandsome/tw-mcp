@@ -162,6 +162,5 @@ uv run --with pytest pytest -q
 
 - 💬 LINE：[林其衞](https://line.me/ti/p/xzHT2IywOM)（請註明「tw-mcp 客製化」）
 - 📞 電話：0928-880-392
-- 🏠 宜蘭買賣房屋：林其衞，有巢氏房屋宜蘭黎明國小加盟店（佳慶不動產有限公司）
-- 🏢 留白事務所：網頁設計、AI 自動化、房仲遠端助理
+- 🏢 留白事務所：網頁設計、AI 自動化、遠端助理
 - 👤 作者：[留白事務所](https://github.com/Larryveryhandsome)
