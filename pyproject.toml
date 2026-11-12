@@ -1,0 +1,37 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tw-mcp"
+version = "0.1.0"
+description = "台灣在地工具箱 MCP server：實價登錄、勞基法加班費、個資遮罩、台灣工作日、PDF 轉圖"
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+requires-python = ">=3.10"
+authors = [{ name = "Larryveryhandsome" }]
+keywords = ["mcp", "taiwan", "claude", "labor-law", "real-estate", "pii"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Natural Language :: Chinese (Traditional)",
+  "Operating System :: OS Independent",
+]
+dependencies = [
+  "mcp>=2.3,<3",
+  "pypdfium2>=4.30",
+  "pillow>=10",
+]
+
+[project.scripts]
+tw-mcp = "tw_mcp.server:main"
+
+[project.urls]
+Homepage = "https://github.com/Larryveryhandsome/tw-mcp"
+Customization = "https://line.me/ti/p/xzHT2IywOM"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/tw_mcp"]
+
+[tool.hatch.build.targets.sdist]
+include = ["src", "tests", "tools", "README.md", "LICENSE", "NOTICE", "RELEASE_CHECK.md"]
