@@ -1,5 +1,7 @@
 # tw-mcp｜台灣在地工具箱（MCP server）
 
+> 🎬 25 秒預告片：[v0.1.0 發布頁](https://github.com/Larryveryhandsome/tw-mcp/releases/tag/v0.1.0)（mp4＋字幕檔）
+
 讓 **Claude Code、Claude Desktop、Cursor** 寫台灣的 App 或處理台灣的資料時，直接呼叫「台灣才有的計算」：
 
 | 工具 | 做什麼 | 例子 |
